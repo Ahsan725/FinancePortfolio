@@ -5,7 +5,9 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-
+        testClasses(); //to test and see the output for classes
+    }
+    public static void testClasses(){
         //list of Valuable objects
         ArrayList<Valuable> assets = new ArrayList<>();
 
