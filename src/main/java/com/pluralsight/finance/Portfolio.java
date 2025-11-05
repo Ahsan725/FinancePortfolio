@@ -27,7 +27,7 @@ public class Portfolio {
     }
 
     public double getMostValuable(){
-        double result = -1;
+        double result = 0;
         for (Valuable asset : valuableList){
             if (asset.getValue() >= result){
                 result = asset.getValue();
@@ -36,7 +36,7 @@ public class Portfolio {
         return result;
     }
     public double getLeastValuable(){
-        double result = 9999999;
+        double result = 0;
         for (Valuable asset : valuableList){
             if (asset.getValue() <= result){
                 result = asset.getValue();
